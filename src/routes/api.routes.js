@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
-import randomRouter from './random.route.js';
+import jokeRouter from './joke.routes.js';
 
 const router = Router();
 
-router.use('/random', randomRouter);
+router.use('/jokes', jokeRouter);
 
 export default router;
