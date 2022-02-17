@@ -1,5 +1,7 @@
 # Acidtango Chuck Norris API
 
+For running the aplication only run `docker-compose up`
+
 This is a Chuck Norris fact search REST API.
 
 The request.rest its only a file to test the endpoint in visual studio code whit the extension REST Client
