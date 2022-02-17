@@ -1,0 +1,9 @@
+# GET http://localhost/api/jokes/random
+
+
+# GET http://localhost/api/jokes/random?category=sport
+
+# GET http://localhost/api/jokes/search?query=war
+
+
+GET http://localhost/api/jokes/search?query=war&page=1&limit=10

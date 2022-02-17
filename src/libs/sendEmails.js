@@ -12,10 +12,9 @@ const transporter = nodemailer.createTransport(
 	})
 );
 
-export const sendEmail = (to, query, data) => {
-	const text = `
-
-    `;
+export const sendEmail = (to, data) => {
+	const text = `Results of your request:
+${JSON.stringify(data, null, 2)}`;
 
 	const mailOptions = {
 		from: 'acidtango Chuck Norris Jokes Api <acidtangojokes@gmail.com>',

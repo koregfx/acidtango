@@ -3,11 +3,17 @@ export const SavedRequestModel = (sequelize, Sequelize) => {
 		word: {
 			type: Sequelize.STRING,
 		},
-		date: {
-			type: Sequelize.DATE,
-		},
 		email: {
 			type: Sequelize.STRING,
+		},
+		page: {
+			type: Sequelize.INTEGER,
+		},
+		limit: {
+			type: Sequelize.INTEGER,
+		},
+		raw: {
+			type: Sequelize.TEXT('long'),
 		},
 	});
 	return Request;

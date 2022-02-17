@@ -2,9 +2,6 @@ version: "3.9"
 services:
   acidtango:
     build: .
-    volumes:
-      - .:/app
-      - ./node_modules
     depends_on:
       - mysqldb
     restart: unless-stopped
